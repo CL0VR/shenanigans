@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+/******************
+BODY
+******************/
+
+body {
+  background-color: tomato;
+
+}
+
+/******************
+HEADER
+******************/
+
+header {
+  background-color: darkgrey;
+  height: 200px;
+  width: 100%;
+}
+
+h1 {
+  margin: 0;
+  padding-left: 10%;
+  padding-top: 40px;
+}
+
+nav {
+  float: right;
+  padding-right: 12%;
+  position: relative;
+  top: -1em;
+}
+
+nav li {
+  display: inline-block;
+  }
+
+/******************
+SECTION
+******************/
+
+section {
+  background-color: white;
+  height: 500px;
+  margin: -100px auto 100px;
+  width: 80%;
+}
+
+
+.video {
+  position: relative;
+  padding-bottom: 56.19998%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 85%;
+  border-style: dashed;
+  border-color: purple;
+  border-width: thick;
+}
+
+
+
+
+.kittens {
+  float: left;
+  width: 30%;
+
+}
+
+
+.kittens:first-child {
+  margin-left: 0;
+}
