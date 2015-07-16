@@ -1,0 +1,18 @@
+/*.video {
+  position: relative;
+  padding-bottom: 56.19998%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 85%;
+  height: 85%;
+  border-style: dashed;
+  border-color: purple;
+  border-width: thick;
+}*/
