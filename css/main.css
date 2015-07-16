@@ -45,27 +45,58 @@ SECTION
 
 section {
   background-color: white;
+<<<<<<< HEAD
   height: 600px;
+=======
+  /*height: 500px;*/
+>>>>>>> 07488927cb0ea083d74c80e90a46f964a7c54a0b
   margin: -100px auto 100px;
   width: 80%;
 }
 
 
+<<<<<<< HEAD
 .video img {
   margin: 50px auto;
+=======
+.video {
+  position: relative;
+  padding-bottom: 56.19998%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video iframe {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 80%;
+  height: 100%;
+  border-style: dashed;
+  border-color: purple;
+  border-width: thick;
+  margin-left: -40%;
+>>>>>>> 07488927cb0ea083d74c80e90a46f964a7c54a0b
 }
 
 
 
+.kittens:after {
+  content: "";
+  display: table;
+  clear: both;
+}
 
-.kittens {
+
+.kitten {
   float: left;
   width: 30%;
-
+  margin-left: 5%;
 }
 
 
-.kittens:first-child {
+.kitten:first-child {
   margin-left: 0;
 }
 
