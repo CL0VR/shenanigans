@@ -62,13 +62,17 @@ section {
   position: absolute;
   top: 0;
   left: 50%;
-  width: 80%;
+  width: 90%;
   height: 100%;
+  margin-left: -45%;
+  padding-top: 40px;
   border-style: dashed;
   border-color: purple;
   border-width: thick;
-  margin-left: -40%;
+
 }
+
+
 
 
 .kittens:after {
@@ -76,6 +80,12 @@ section {
     display: table;
     clear: both;
   }
+
+
+.kittens {
+  padding-top: 50px;
+}
+
 
 .kitten {
   float: left;
@@ -90,5 +100,5 @@ section {
 
 
 .secondary-content {
-  padding: 0 10%;
+  margin: -100px auto 100px
 }
