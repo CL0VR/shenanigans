@@ -66,9 +66,9 @@ section {
   height: 100%;
   margin-left: -45%;
   padding-top: 40px;
-  border-style: dashed;
+  /*border-style: dashed;
   border-color: purple;
-  border-width: thick;
+  border-width: thick;*/
 
 }
 
@@ -83,14 +83,14 @@ section {
 
 
 .kittens {
-  padding-top: 50px;
+  padding: 0 5%;
 }
 
 
 .kitten {
   float: left;
-  width: 30%;
-  margin-left: 5%;
+  width: 29%;
+  margin: 2.5%;
 }
 
 
