@@ -9,7 +9,6 @@ BODY
 
 body {
   background-color: tomato;
-
 }
 
 /******************
@@ -24,23 +23,47 @@ header {
 
 h1 {
   margin: 0;
-  padding-left: 10%;
+  padding-left: 14%;
   padding-top: 40px;
 }
 
+h1 {
+  font-family: Lobster Two, sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+
+/******************
+NAVIGATION
+******************/
+
+
 nav {
   float: right;
-  padding-right: 12%;
+  padding-right: 14%;
   position: relative;
   top: -1em;
 }
 
 nav li {
   display: inline-block;
-  }
+  font-family: Cinzel, sans-serif;
+}
+
+a:link {
+  color: black;
+}
+
+nav a {
+  padding: 0 .25em;
+}
+
 
 /******************
-SECTION
+SECTION 1
 ******************/
 
 section {
@@ -72,8 +95,9 @@ section {
 
 }
 
-
-
+/******************
+SECTION 2
+******************/
 
 .kittens:after {
     content: '';
@@ -89,13 +113,21 @@ section {
 
 .kitten {
   float: left;
-  width: 29%;
+  width: 30%;
   margin: 2.5%;
 }
 
 
 .kitten:first-child {
   margin-left: 0;
+}
+
+.kitten:last-child {
+  margin-right: 0;
+}
+
+img {
+  max-width: 100%;
 }
 
 
